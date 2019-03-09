@@ -1,0 +1,11 @@
+.container {
+    text-align: center;
+    border: 3px solid green;
+    font-size: 40px;
+}
+
+#mainBtn{
+    border: 20px;
+    color: brown;
+    background-color: burlywood;
+}
