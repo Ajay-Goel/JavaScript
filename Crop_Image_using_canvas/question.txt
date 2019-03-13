@@ -1,0 +1,24 @@
+Image cropping:
+
+User Requirements:
+
+Load an HTML page with any static image.
+The page should have a crop icon.
+When the crop icon is clicked the static image should get the crop grid lines and border as shown in the attached image.
+Crop icon should be displayed as clicked.
+The user should be able to crop the using top, top-right corner, right, bottom-right corner, bottom, bottom-left corner, left and top-left corner by dragging the crop boundaries.
+The user should be able to get out of crop state by clicking the crop icon again.
+Cropped image should be displayed on the page.
+Technical Requirements:
+
+The goal of this assignment is to learn about JavaScript events.
+Add events on elements using JavaScript and not on the HTML markup.
+On page unload (like window close) remove all events attached to the elements.
+
+
+Code documentation. (10 Points)
+.gitignore, README.md and multiple Git commits (10 Points)
+Use external CSS, JavaScript files. (5 Points)
+If inline javascript is used. (-10 points)
+If event listeners are not removed on page unload. (-10 points)
+Assignment completion. (75 Points)
