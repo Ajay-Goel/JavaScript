@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>API-LINK</title>
+    <link rel="stylesheet" href="css/script.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-10 mx-auto col-md-6 my-5 text-center" id="m1">
+                <h3 id="result" class="text-capitalize">Products</h3>
+                <ul id="list">
+                </ul>
+                <button id="mainBtn" class="btn btn-warning text-capitalize my-3">get all products</button>
+            </div>
+            <div class="post_req">
+                <button id="postBtn" class="vis1" onclick="make_visible()">Post Products</button>
+                    <div class ="post_visible" id="vis2">
+                        Product Name: <input type="text" name="Post_name" id="post_name_id"><br>
+                        Price: <input type="text" name="Post_price" id="post_price_id"><br>
+                        <button class="post_api" id="postbtn_2">Add Product</button>
+                    </div>
+            </div>
+            <div class="delete_req">
+                <div class ="delete2" id="del2">
+                    Product_id: <input type="text" name="delete_id" id="delete_id"><br>
+                    <button class="delete_api" id="deleteBtn">Delete Product</button>
+                </div>
+            </div>
+            <div class="update_product">
+                <div class ="patch_prod" id="patch2">
+                    Product_id: <input type="text" name="patch_id" id="patch_id"><br>
+                    Product Name: <input type="text" name="Patch_name" id="patch_name_id"><br>
+                    <!-- Price: <input type="text" name="Patch_price" id="patch_price_id"><br> -->
+                    <button class="patch_api" id="patchbtn_2">Update Product</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>

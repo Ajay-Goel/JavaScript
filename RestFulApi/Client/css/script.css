@@ -1,0 +1,42 @@
+.container {
+    text-align: center;
+    border: 3px solid green;
+    font-size: 40px;
+}
+
+#mainBtn{
+    border: 20px;
+    color: brown;
+    background-color: burlywood;
+}
+
+#vis2{
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+}
+#del2{
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightpink;
+    margin-top: 20px;
+}
+
+#patch2{
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightgreen;
+    margin-top: 20px;
+}
+
+#m1{
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightgray;
+    margin-top: 20px;
+}
